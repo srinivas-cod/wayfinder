@@ -1,0 +1,167 @@
+{
+	"units": {
+		"meters": "m",
+		"kilometers": "km",
+		"feet": "ft",
+		"mile": "dặm",
+		"miles": "dặm"
+	},
+	"trip-planner": {
+		"arrive": "Đến",
+		"depart": "Khởi hành",
+		"today": "Hôm nay",
+		"tomorrow": "Ngày mai",
+		"plan_your_trip": "Lập kế hoạch hành trình",
+		"itinerary": "Lịch trình",
+		"duration": "Thời gian",
+		"start_time": "Thời gian bắt đầu",
+		"end_time": "Thời gian kết thúc",
+		"minutes": "phút",
+		"distance": "Khoảng cách",
+		"end": "Kết thúc",
+		"start": "Bắt đầu",
+		"meters": "mét",
+		"no_itineraries_found": "Không tìm thấy lịch trình",
+		"loading": "Đang tải...",
+		"planning": "Đang lập kế hoạch",
+		"from": "Từ",
+		"to": "Đến",
+		"search_for_a_place": "Tìm kiếm địa điểm",
+		"trip_itineraries": "Lịch trình chuyến đi",
+		"show_steps": "Hiện các bước",
+		"hide_steps": "Ẩn các bước",
+		"distance_unit": "Đơn vị khoảng cách",
+		"unit_auto": "Tự động phát hiện",
+		"unit_metric": "Hệ mét (km, m)",
+		"unit_imperial": "Hệ Anh (mi, ft)"
+	},
+	"tabs": {
+		"stops-and-stations": "Trạm dừng và nhà ga",
+		"plan_trip": "Lập kế hoạch chuyến đi"
+	},
+	"search": {
+		"placeholder": "Tìm kiếm trạm dừng, tuyến đường và địa điểm",
+		"results_for": "Kết quả tìm kiếm cho",
+		"clear_results": "Xóa kết quả",
+		"search": "Tìm kiếm",
+		"click_here": "Nhấn vào đây",
+		"for_a_list_of_available_routes": "cho danh sách các tuyến đường có sẵn",
+		"search_for_routes": "Tìm kiếm tuyến đường...",
+		"no_routes_found": "Không tìm thấy tuyến đường",
+		"all_routes": "Tất cả các tuyến đường"
+	},
+	"header": {
+		"home": "Trang chủ",
+		"about": "Về chúng tôi",
+		"contact": "Liên hệ",
+		"fares_and_tolls": "Phí và lệ phí"
+	},
+	"navigation": {
+		"back_to_map": "Quay lại Bản đồ"
+	},
+	"status": {
+		"scheduled": "đã lên lịch",
+		"early": "sớm",
+		"late": "trễ",
+		"on_time": "đúng giờ",
+		"min": "phút",
+		"arrives_on_time": "đến đúng giờ",
+		"scheduled_not_real_time": "Lên lịch/không thời gian thực",
+		"canceled": "Đã hủy",
+		"canceled_arrival": "Đến đã hủy",
+		"canceled_departure": "Đi đã hủy",
+		"frequency_from": "Mỗi {headway} phút từ {time}",
+		"frequency_until": "Mỗi {headway} phút đến {time}",
+		"late_without_arrive_depart": "{delay} phút trễ",
+		"early_without_arrive_depart": "{delay} phút sớm",
+		"arrived_delayed": "Đã đến trễ {delay} phút",
+		"arrived_early": "Đã đến sớm {delay} phút",
+		"arrived_ontime": "Đã đến đúng giờ",
+		"depart_delayed": "Đã đi trễ {delay} phút",
+		"depart_early": "Đã đi sớm {delay} phút",
+		"departed_ontime": "Đã đi đúng giờ",
+		"scheduled_arrival": "Đến theo lịch",
+		"scheduled_departure": "Đi theo lịch"
+	},
+	"alert": {
+		"more_info": "Thêm thông tin",
+		"close": "Đóng"
+	},
+	"arrivals_and_departures": "Đến và đi",
+	"no_arrivals_or_departures_in_next_30_minutes": "Không có chuyến đến hoặc đi trong 30 phút tới",
+	"stop": "Trạm dừng",
+	"routes": "Tuyến đường",
+	"route": "Tuyến đường",
+	"route_modal_title": "Tuyến đường {name}",
+	"loading": "Đang tải",
+	"arrives": "Đến",
+	"NA": "KAD",
+	"time": {
+		"ago": "trước",
+		"now": "bây giờ",
+		"sec": "sec",
+		"secs": "secs",
+		"min": "min",
+		"mins": "mins",
+		"minutes": "minutes"
+	},
+	"vehicle": {
+		"number": "Xe #",
+		"data_updated": "Dữ liệu đã cập nhật",
+		"no_real_time_data": "Hiện tại không có dữ liệu thời gian thực cho xe này.",
+		"next_stop": "Trạm dừng tiếp theo:"
+	},
+	"arrivals_and_departures_for_stop": {
+		"title": "Lịch Đến và Đi"
+	},
+	"schedule_for_stop": {
+		"view_schedule": "Xem lịch trình",
+		"no_am_schedules_available": "Không có lịch trình buổi sáng nào khả dụng",
+		"no_pm_schedules_available": "Không có lịch trình buổi chiều nào khả dụng",
+		"minutes": "Phút",
+		"hour": "Giờ",
+		"show_all_routes": "Mở Rộng Tất Cả",
+		"collapse_all_routes": "Thu Gọn Tất Cả",
+		"route_schedules": "Lịch trình tuyến đường",
+		"no_schedules_available": "Không có lịch trình nào khả dụng cho ngày đã chọn.",
+		"stop_id": "Mã điểm dừng",
+		"direction": "Hướng"
+	},
+	"direction": {
+		"N": "Bắc",
+		"NE": "Đông Bắc",
+		"E": "Đông",
+		"SE": "Đông Nam",
+		"S": "Nam",
+		"SW": "Tây Nam",
+		"W": "Tây",
+		"NW": "Tây Bắc"
+	},
+	"service_alerts": {
+		"more_info": "Thêm thông tin",
+		"close": "Đóng",
+		"service_alerts": "Thông báo dịch vụ",
+		"service_alert": "Thông báo dịch vụ",
+		"advice": "Lời khuyên",
+		"no_summary": "Không có tóm tắt cho thông báo này",
+		"no_description": "Không có mô tả chi tiết cho thông báo này",
+		"page": "Trang",
+		"show": "Hiển thị",
+		"hide": "Ẩn"
+	},
+	"view_stop_information": "Xem thông tin trạm dừng",
+	"stop_details": {
+		"view_details": "Xem chi tiết"
+	},
+	"language_switcher": {
+		"select_language": "Chọn ngôn ngữ: {language}",
+		"available_languages": "Ngôn ngữ có sẵn"
+	},
+	"map": {
+		"find_my_location": "Tìm vị trí của tôi"
+	},
+	"context-menu": {
+		"start_here": "Bắt đầu từ đây",
+		"end_here": "Kết thúc tại đây"
+	}
+}

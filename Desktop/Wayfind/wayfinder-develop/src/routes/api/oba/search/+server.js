@@ -1,0 +1,91 @@
+import { OnebusawaySDK } from 'onebusaway-sdk';
+
+import { bingGeocode, googleGeocode } from '$lib/geocoder';
+import { getBoundsCache } from '$lib/serverCache.js';
+import { getAgencyFilter, filterRoutes, filterStops } from '$lib/agencyFilter.js';
+
+import {
+	PUBLIC_OBA_SERVER_URL as baseUrl,
+	PUBLIC_OBA_REGION_CENTER_LAT as centerLat,
+	PUBLIC_OBA_REGION_CENTER_LNG as centerLng
+} from '$env/static/public';
+
+import {
+	PRIVATE_OBA_API_KEY as apiKey,
+	PRIVATE_OBA_GEOCODER_PROVIDER as geocoderProvider
+} from '$env/static/private';
+
+import { env } from '$env/dynamic/private';
+
+let geocoderApiKey = env.PRIVATE_OBA_GEOCODER_API_KEY;
+
+const oba = new OnebusawaySDK({
+	apiKey: apiKey,
+	baseURL: baseUrl
+});
+
+async function routeSearch(query) {
+	const params = {
+		lat: centerLat,
+		lon: centerLng,
+		query
+	};
+	return oba.routesForLocation.list(params);
+}
+
+async function stopSearch(query) {
+	const params = {
+		lat: centerLat,
+		lon: centerLng,
+		query
+	};
+	return oba.stopsForLocation.list(params);
+}
+
+async function locationSearch(query, bounds) {
+	if (geocoderProvider === 'google') {
+		return googleGeocode({ apiKey: geocoderApiKey, query, bounds });
+	} else if (geocoderProvider === 'bing') {
+		return bingGeocode({ apiKey: geocoderApiKey, query, bounds });
+	}
+}
+
+export async function GET({ url }) {
+	const searchInput = url.searchParams.get('query')?.trim();
+
+	try {
+		const bounds = getBoundsCache();
+
+		const [routeResponse, stopResponse, locationResponse] = await Promise.all([
+			routeSearch(searchInput),
+			stopSearch(searchInput),
+			locationSearch(searchInput, bounds)
+		]);
+
+		const agencyFilter = getAgencyFilter();
+		const routes = filterRoutes(routeResponse?.data?.list, agencyFilter);
+		const stops = filterStops(stopResponse?.data?.list, agencyFilter);
+
+		return new Response(
+			JSON.stringify({
+				routes,
+				stops,
+				location: locationResponse,
+				query: searchInput
+			}),
+			{ headers: { 'Content-Type': 'application/json' } }
+		);
+	} catch (error) {
+		console.error('Search endpoint failure:', error);
+		return new Response(
+			JSON.stringify({
+				error: 'Search failed',
+				message: error instanceof Error ? error.message : String(error)
+			}),
+			{
+				headers: { 'Content-Type': 'application/json' },
+				status: 500
+			}
+		);
+	}
+}

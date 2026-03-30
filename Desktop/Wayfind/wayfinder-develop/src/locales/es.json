@@ -1,0 +1,164 @@
+{
+	"units": {
+		"meters": "m",
+		"kilometers": "km",
+		"feet": "ft",
+		"mile": "milla",
+		"miles": "millas"
+	},
+	"trip-planner": {
+		"arrive": "Llegar",
+		"depart": "Salir",
+		"today": "Hoy",
+		"tomorrow": "Mañana",
+		"plan_your_trip": "Planifica tu viaje",
+		"itinerary": "Itinerario",
+		"duration": "Duración",
+		"start_time": "Hora de inicio",
+		"end_time": "Hora de finalización",
+		"minutes": "minutos",
+		"distance": "Distancia:",
+		"end": "Final",
+		"start": "Inicio",
+		"meters": "metros",
+		"no_itineraries_found": "No se encontraron itinerarios",
+		"loading": "Cargando",
+		"planning": "Planificando",
+		"from": "Desde",
+		"to": "Hasta",
+		"search_for_a_place": "Buscar un lugar",
+		"trip_itineraries": "Itinerarios de viaje",
+		"show_steps": "Mostrar pasos",
+		"hide_steps": "Ocultar pasos",
+		"distance_unit": "Unidad de distancia",
+		"unit_auto": "Detectar automáticamente",
+		"unit_metric": "Métrico (km, m)",
+		"unit_imperial": "Imperial (mi, ft)"
+	},
+	"tabs": {
+		"stops-and-stations": "Paradas y estaciones",
+		"plan_trip": "Planificar un viaje"
+	},
+	"search": {
+		"placeholder": "Buscar paradas, rutas y lugares",
+		"results_for": "Resultados de búsqueda para",
+		"clear_results": "Borrar resultados",
+		"search": "Buscar",
+		"click_here": "Haga clic aquí",
+		"for_a_list_of_available_routes": "para una lista de rutas disponibles",
+		"search_for_routes": "Buscar rutas...",
+		"no_routes_found": "No se encontraron rutas",
+		"all_routes": "Todas las rutas"
+	},
+	"header": {
+		"home": "Inicio",
+		"about": "Acerca de",
+		"contact": "Contacto",
+		"fares_and_tolls": "Tarifas y peajes"
+	},
+	"navigation": {
+		"back_to_map": "Volver al Mapa"
+	},
+	"status": {
+		"scheduled": "programado",
+		"early": "temprano",
+		"late": "tarde",
+		"on_time": "a tiempo",
+		"min": "min",
+		"arrives_on_time": "llega a tiempo",
+		"scheduled_not_real_time": "Programado/no en tiempo real",
+		"canceled": "Cancelado",
+		"canceled_arrival": "Llegada cancelada",
+		"canceled_departure": "Salida cancelada",
+		"frequency_from": "Cada {headway} min desde {time}",
+		"frequency_until": "Cada {headway} min hasta {time}",
+		"late_without_arrive_depart": "{delay} min tarde",
+		"early_without_arrive_depart": "{delay} min temprano",
+		"arrived_delayed": "Llegó {delay} min tarde",
+		"arrived_early": "Llegó {delay} min temprano",
+		"arrived_ontime": "Llegó a tiempo",
+		"depart_delayed": "Salió {delay} min tarde",
+		"depart_early": "Salió {delay} min temprano",
+		"departed_ontime": "Salió a tiempo",
+		"scheduled_arrival": "Llegada programada",
+		"scheduled_departure": "Salida programada"
+	},
+	"alert": {
+		"more_info": "Más información",
+		"close": "Cerrar"
+	},
+	"arrivals_and_departures": "Llegadas y salidas",
+	"no_arrivals_or_departures_in_next_30_minutes": "No hay llegadas ni salidas en los próximos 30 minutos",
+	"stop": "Parada",
+	"routes": "Rutas",
+	"route": "Ruta",
+	"route_modal_title": "Ruta {name}",
+	"loading": "Cargando",
+	"arrives": "llega",
+	"NA": "N/D",
+	"time": {
+		"ago": "hace",
+		"now": "ahora",
+		"sec": "seg",
+		"secs": "segs",
+		"min": "min",
+		"mins": "mins",
+		"minutes": "minutos"
+	},
+	"vehicle": {
+		"number": "Vehículo #",
+		"data_updated": "Datos actualizados",
+		"no_real_time_data": "Actualmente no tenemos datos en tiempo real para este vehículo.",
+		"next_stop": "Próxima parada:"
+	},
+	"arrivals_and_departures_for_stop": {
+		"title": "Llegadas y Salidas"
+	},
+	"schedule_for_stop": {
+		"view_schedule": "Ver horario",
+		"no_am_schedules_available": "No hay horarios AM disponibles",
+		"no_pm_schedules_available": "No hay horarios PM disponibles",
+		"minutes": "Minutos",
+		"hour": "Hora",
+		"show_all_routes": "Expandir Todo",
+		"collapse_all_routes": "Contraer Todo",
+		"route_schedules": "Horarios de rutas",
+		"no_schedules_available": "No hay horarios disponibles para la fecha seleccionada.",
+		"stop_id": "ID de la parada",
+		"direction": "Dirección"
+	},
+
+	"direction": {
+		"N": "Norte",
+		"NE": "Noreste",
+		"E": "Este",
+		"SE": "Sureste",
+		"S": "Sur",
+		"SW": "Suroeste",
+		"W": "Oeste",
+		"NW": "Noroeste"
+	},
+	"service_alerts": {
+		"more_info": "Más información",
+		"close": "Cerrar",
+		"service_alerts": "Alertas de servicio",
+		"service_alert": "Alerta de servicio",
+		"advice": "Consejo",
+		"no_summary": "No hay resumen disponible para esta alerta",
+		"no_description": "No hay descripción detallada disponible para esta alerta",
+		"page": "Página",
+		"show": "Mostrar",
+		"hide": "Ocultar"
+	},
+	"language_switcher": {
+		"select_language": "Seleccionar idioma: {language}",
+		"available_languages": "Idiomas disponibles"
+	},
+	"map": {
+		"find_my_location": "Encontrar mi ubicación"
+	},
+	"context-menu": {
+		"start_here": "Comenzar aquí",
+		"end_here": "Terminar aquí"
+	}
+}
