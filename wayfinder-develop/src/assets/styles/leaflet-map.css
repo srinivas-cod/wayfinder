@@ -1,0 +1,27 @@
+.leaflet-touch {
+	.leaflet-bar {
+		.leaflet-control-zoom-in,
+		.leaflet-control-zoom-out {
+			width: 2.2rem;
+			height: 40px;
+			margin: 1.6px;
+			padding: 0px;
+			z-index: 5;
+		}
+
+		.leaflet-control-zoom-out span .leaflet-control-zoom-in span {
+			width: 2.2rem;
+			height: 2.2rem;
+			background-repeat: no-repeat;
+			align-items: center;
+		}
+	}
+
+	.leaflet-control-attribution {
+		display: none;
+	}
+}
+
+.leaflet-control {
+	background-color: #fff;
+}

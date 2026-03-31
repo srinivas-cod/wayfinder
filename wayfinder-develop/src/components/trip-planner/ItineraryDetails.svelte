@@ -1,0 +1,59 @@
+<script>
+	import LegDetails from './LegDetails.svelte';
+	import { msToTimeString } from '$lib/dateTimeFormat';
+	import { env } from '$env/dynamic/public';
+	import { t } from 'svelte-i18n';
+	import { isStaySeatedTransition, getRouteName } from '$lib/tripPlanUtils';
+	let { itinerary, expandedSteps, toggleSteps } = $props();
+
+	const regionTz = env.PUBLIC_OBA_TIMEZONE || undefined;
+</script>
+
+<!-- Summary Card -->
+<div
+	class="mb-6 flex items-stretch justify-between divide-x divide-gray-200 rounded-xl border border-gray-200 bg-gradient-to-b from-gray-50 to-white p-4 shadow-sm dark:divide-gray-700 dark:border-gray-700 dark:from-gray-800/80 dark:to-gray-800/40"
+>
+	<div class="flex-1 px-3 text-center first:pl-0 last:pr-0">
+		<p class="text-xs font-medium uppercase tracking-wide text-gray-500 dark:text-gray-400">
+			{$t('trip-planner.duration')}
+		</p>
+		<p class="mt-1 text-xl font-bold text-gray-900 dark:text-white">
+			{Math.round(itinerary.duration / 60)}
+			<span class="text-base font-medium text-gray-600 dark:text-gray-300">{$t('time.min')}</span>
+		</p>
+	</div>
+	<div class="flex-1 px-3 text-center first:pl-0 last:pr-0">
+		<p class="text-xs font-medium uppercase tracking-wide text-gray-500 dark:text-gray-400">
+			{$t('trip-planner.start_time')}
+		</p>
+		<p class="mt-1 text-xl font-bold text-gray-900 dark:text-white">
+			{msToTimeString(itinerary.startTime, regionTz)}
+		</p>
+	</div>
+	<div class="flex-1 px-3 text-center first:pl-0 last:pr-0">
+		<p class="text-xs font-medium uppercase tracking-wide text-gray-500 dark:text-gray-400">
+			{$t('trip-planner.end_time')}
+		</p>
+		<p class="mt-1 text-xl font-bold text-gray-900 dark:text-white">
+			{msToTimeString(itinerary.endTime, regionTz)}
+		</p>
+	</div>
+</div>
+
+<!-- Legs Timeline -->
+<div class="space-y-0">
+	{#each itinerary.legs as leg, index}
+		{@const isInterline = isStaySeatedTransition(itinerary.legs, index)}
+		{@const nextLeg = itinerary.legs[index + 1]}
+		{@const nextLegRouteName = getRouteName(nextLeg)}
+		<LegDetails
+			{leg}
+			{index}
+			{isInterline}
+			{expandedSteps}
+			{toggleSteps}
+			{nextLegRouteName}
+			isLast={index === itinerary.legs.length - 1}
+		/>
+	{/each}
+</div>

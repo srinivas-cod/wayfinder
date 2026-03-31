@@ -1,0 +1,167 @@
+{
+	"units": {
+		"meters": "ሜ",
+		"kilometers": "ኪሜ",
+		"feet": "ጫማ",
+		"mile": "ማይል",
+		"miles": "ማይሎች"
+	},
+	"trip-planner": {
+		"arrive": "መድረስ",
+		"depart": "መነሳት",
+		"today": "ዛሬ",
+		"tomorrow": "ነገ",
+		"plan_your_trip": "ጉዞዎን ያቅዱ",
+		"itinerary": "ጉዞ አይነት",
+		"duration": "ቆይታ ጊዜ",
+		"start_time": "መነሻ ጊዜ",
+		"end_time": "መጨረሻ ጊዜ",
+		"minutes": "ደቂቃዎች",
+		"distance": "ርቀት",
+		"end": "መጨረሻ",
+		"start": "መነሻ",
+		"meters": "ሜትሮች",
+		"no_itineraries_found": "ምንም ጉዞ አይነት አልተገኘም",
+		"loading": "በመጫን ላይ...",
+		"planning": "በማቅዳት ላይ",
+		"from": "ከ",
+		"to": "ወደ",
+		"search_for_a_place": "ቦታ ይፈልጉ",
+		"trip_itineraries": "የጉዞ አይነቶች",
+		"show_steps": "ደረጃዎችን አሳይ",
+		"hide_steps": "ደረጃዎችን ደብቅ",
+		"distance_unit": "የርቀት መለኪያ",
+		"unit_auto": "በራስ-ሰር ይለዩ",
+		"unit_metric": "ሜትሪክ (ኪሜ፣ ሜ)",
+		"unit_imperial": "ኢምፔሪያል (ማይል፣ ጫማ)"
+	},
+	"tabs": {
+		"stops-and-stations": "ማቆሚያዎችና ጣቢያዎች",
+		"plan_trip": "ጉዞን አቅድ"
+	},
+	"search": {
+		"placeholder": "ቆሻሻዎችን፣ መንገዶችን እና ቦታዎችን ይፈልጉ",
+		"results_for": "የፍለጋ ውጤቶች ለ",
+		"clear_results": "ውጤቶችን አጥፋ",
+		"search": "ፈልግ",
+		"click_here": "እዚህ ጠቅ ያድርጉ",
+		"for_a_list_of_available_routes": "ለመገኘት የሚገባቸው መንገዶች",
+		"search_for_routes": "መንገዶችን ይፈልጉ...",
+		"no_routes_found": "ምንም መንገዶች አልተገኙም",
+		"all_routes": "ሁሉም መንገዶች"
+	},
+	"header": {
+		"home": "ቤት",
+		"about": "ስለ እኛ",
+		"contact": "እኛን ያነጋግሩ",
+		"fares_and_tolls": "ክፍያዎች እና ግብሶች"
+	},
+	"navigation": {
+		"back_to_map": "ወደ ካርታ ተመለስ"
+	},
+	"status": {
+		"scheduled": "ታቅዷል",
+		"early": "በስተ ቀድሞ",
+		"late": "ዝንባሌ",
+		"on_time": "በትክክል ጊዜ",
+		"min": "ደቂቃ",
+		"arrives_on_time": "በጊዜው ይደርሳል",
+		"scheduled_not_real_time": "ታቅዷል/እንደሚሆነ ሁኔታ",
+		"canceled": "ተሰርዟል",
+		"canceled_arrival": "ተሰርዟል መድረሻ",
+		"canceled_departure": "ተሰርዟል መውጣት",
+		"frequency_from": "በየ {headway} ደቂቃ ከ {time}",
+		"frequency_until": "በየ {headway} ደቂቃ እስከ {time}",
+		"late_without_arrive_depart": "{delay} ደቂቃ መዘግየት",
+		"early_without_arrive_depart": "{delay} ደቂቃ ቀድሞ",
+		"arrived_delayed": "ደርሷል {delay} ደቂቃ መዘግየት",
+		"arrived_early": "ደርሷል {delay} ደቂቃ ቀድሞ",
+		"arrived_ontime": "በጊዜው ደርሷል",
+		"depart_delayed": "ተጓዘ {delay} ደቂቃ መዘግየት",
+		"depart_early": "ተጓዘ {delay} ደቂቃ ቀድሞ",
+		"departed_ontime": "በጊዜው ተጓዘ",
+		"scheduled_arrival": "ታቅዶ መድረሻ",
+		"scheduled_departure": "ታቅዶ መውጣት"
+	},
+	"alert": {
+		"more_info": "ተጨማሪ መረጃ",
+		"close": "ዝጋ"
+	},
+	"arrivals_and_departures": "መግቢያዎችና መውጫዎች",
+	"no_arrivals_or_departures_in_next_30_minutes": "በሚቀጥሉት 30 ደቂቃዎች ውስጥ ምንም መድረሻ ወይም ለቆ መሄድ የለም",
+	"stop": "ቆሻሻ",
+	"routes": "መንገዶች",
+	"route": "መንገድ",
+	"route_modal_title": "መስመር {name}",
+	"loading": "በመጫን ላይ",
+	"arrives": "ይደርሳል",
+	"NA": "አቅርኛ",
+	"time": {
+		"ago": "በፊት",
+		"now": "አሁን",
+		"sec": "sec",
+		"secs": "secs",
+		"min": "min",
+		"mins": "mins",
+		"minutes": "minutes"
+	},
+	"vehicle": {
+		"number": "ተሽከርካሪ #",
+		"data_updated": "የተሻሻለ ውሂብ",
+		"no_real_time_data": "ለዚህ ተሽከርካሪ በእሁድኛ ጊዜ ውሂብ አናስተውላም።",
+		"next_stop": "ቀጣይ ማቆሚያ:"
+	},
+	"arrivals_and_departures_for_stop": {
+		"title": "መድረሻዎች እና ማቆሚያዎች"
+	},
+	"schedule_for_stop": {
+		"view_schedule": "ጊዜ ሰንጠረዥን ይመልከቱ",
+		"no_am_schedules_available": "ምንም AM ጊዜ ሰንጠረዦች አልተገኙም",
+		"no_pm_schedules_available": "ምንም PM ጊዜ ሰንጠረዦች አልተገኙም",
+		"minutes": "ደቂቃዎች",
+		"hour": "ሰዓት",
+		"show_all_routes": "ሁሉንም ዘርጋ",
+		"collapse_all_routes": "ሁሉንም ሰብስብ",
+		"route_schedules": "የመንገድ ጊዜ ሰንጠረዦች",
+		"no_schedules_available": "ምንም ጊዜ ሰንጠረዦች ለተመረጠው ቀን አልተገኙም።",
+		"stop_id": "የማቆሚያ መታወቂያ",
+		"direction": "አቅጣጫ"
+	},
+	"direction": {
+		"N": "ሰሜን",
+		"NE": "ሰሜን ምሥራቅ",
+		"E": "ምሥራቅ",
+		"SE": "ደቡብ ምሥራቅ",
+		"S": "ደቡብ",
+		"SW": "ደቡብ ምዕራብ",
+		"W": "ምዕራብ",
+		"NW": "ሰሜን ምዕራብ"
+	},
+	"service_alerts": {
+		"more_info": "ተጨማሪ መረጃ",
+		"close": "ዝጋ",
+		"service_alerts": "አገልግሎት ማስጠንቀቂያዎች",
+		"service_alert": "አገልግሎት ማስጠንቀቂያ",
+		"advice": "ምክር",
+		"no_summary": "ለዚህ ማስጠንቀቂያ ምንም ማጠቃለያ የለም",
+		"no_description": "ለዚህ ማስጠንቀቂያ ዝርዝር መግለጫ የለም",
+		"page": "ገፅ",
+		"show": "አሳይ",
+		"hide": "ደብቅ"
+	},
+	"view_stop_information": "የማቆሚያ መረጃ ይመልከቱ",
+	"stop_details": {
+		"view_details": "ዝርዝሮችን ይመልከቱ"
+	},
+	"language_switcher": {
+		"select_language": "ቋንቋ ይምረጡ: {language}",
+		"available_languages": "የሚገኙ ቋንቋዎች"
+	},
+	"map": {
+		"find_my_location": "ቦታዬን ፈልግ"
+	},
+	"context-menu": {
+		"start_here": "ከዚህ ጀምር",
+		"end_here": "ዚህ ጨርስ"
+	}
+}

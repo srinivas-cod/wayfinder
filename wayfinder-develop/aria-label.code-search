@@ -1,0 +1,95 @@
+# Query: aria-label
+# ContextLines: 1
+
+19 results - 15 files
+
+wayfinder-develop\src\components\FullPageLoadingSpinner.svelte:
+  5  <div
+  6: 	aria-label={$t('loading')}
+  7  	role="status"
+
+wayfinder-develop\src\components\__tests__\FullPageLoadingSpinner.test.js:
+  60  
+  61: 	test('updates the visible text and aria-label when the locale changes to Spanish', async () => {
+  62  		render(FullPageLoadingSpinner);
+
+wayfinder-develop\src\components\map\StopMarker.svelte:
+  94  			aria-expanded={isExpanded}
+  95: 			aria-label={isExpanded ? 'Collapse route list' : `Show all ${routeNames.length} routes`}
+  96  		>
+
+wayfinder-develop\src\components\navigation\Header.svelte:
+  246  	<nav
+  247: 		aria-label={t("Main navigation")}
+  248  		class="flex items-center gap-x-2 px-1 py-1 md:gap-x-4 md:px-2 md:py-2"
+
+  263  					onclick={toggleOverflowMenu}
+  264: 					aria-label="More navigation options"
+  265  					class="flex h-8 w-8 items-center justify-center rounded-md border bg-surface/80 dark:bg-surface-dark"
+
+wayfinder-develop\src\components\navigation\LanguageSwitcher\LanguageSwitcher.svelte:
+  116  			onclick={() => (isOpen = !isOpen)}
+  117: 			aria-label={$t('language_switcher.select_language', {
+  118  				values: { language: getLanguageNameForLocale(currentLocale, buttonFormat) }
+
+  146  					role="listbox"
+  147: 					aria-label={$t('language_switcher.available_languages')}
+  148  					class="flex flex-col py-1"
+
+wayfinder-develop\src\components\navigation\LanguageSwitcher\__tests__\LanguageSwitcher.test.js:
+  520  
+  521: 		test('button aria-label includes current language', () => {
+  522  			render(LanguageSwitcher);
+
+wayfinder-develop\src\components\service-alerts\ServiceAlertItem.svelte:
+  12  	tabindex="0"
+  13: 	aria-label={$t('service_alerts.open_alert', {
+  14  		values: {
+
+wayfinder-develop\src\components\service-alerts\ServiceAlerts.svelte:
+  108  		tabindex="0"
+  109: 		aria-label={$t('service_alerts.alert_modal')}
+  110  	>
+
+wayfinder-develop\src\components\surveys\SurveyQuestion.svelte:
+  40  	{#if required && question.content.type !== 'label'}
+  41: 		<span class="ml-1 text-red-500" aria-label="Required question">*</span>
+  42  	{/if}
+
+wayfinder-develop\src\components\trip-planner\RecentTripsList.svelte:
+  39  					tabindex="0"
+  40: 					aria-label={$t('trip-planner.recent_trip', {
+  41  						values: { from: trip.fromPlace, to: trip.toPlace }
+
+  68  						onclick={(e) => handleDelete(e, trip.id)}
+  69: 						aria-label={$t('trip-planner.remove_recent_trip')}
+  70  					>
+
+wayfinder-develop\src\components\trip-planner\TripOptionsModal.svelte:
+   82  	aria-modal="true"
+   83: 	aria-labelledby="modal-title"
+   84  	tabindex="-1"
+
+  221  							aria-checked={wheelchair}
+  222: 							aria-label={$t('trip-planner.wheelchair_accessible')}
+  223  							onclick={() => (wheelchair = !wheelchair)}
+
+wayfinder-develop\src\components\trip-planner\TripPlan.svelte:
+  367  				disabled={!fromPlace && !toPlace}
+  368: 				aria-label={$t('trip-planner.swap_locations')}
+  369  				class="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 bg-white text-gray-600 transition-all hover:bg-gray-50 hover:text-gray-900 disabled:cursor-not-allowed disabled:border-gray-200 disabled:bg-gray-100 disabled:text-gray-300 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200 dark:disabled:border-gray-700 dark:disabled:bg-gray-800 dark:disabled:text-gray-600"
+
+wayfinder-develop\src\components\trip-planner\TripPlanSearchField.svelte:
+  53  			onclick={handleClear}
+  54: 			aria-label={t("Clear")}
+  55  		>
+
+wayfinder-develop\src\components\trip-planner\__tests__\TripPlanSearchField.test.js:
+  205  			const clearButton = screen.getByLabelText('Clear');
+  206: 			expect(clearButton).toHaveAttribute('aria-label', 'Clear');
+  207  			expect(clearButton).toHaveAttribute('type', 'button');
+
+wayfinder-develop\src\lib\LocationButton\LocationButton.svelte:
+  28  	class="custom-map-control-button"
+  29: 	aria-label={$t('map.find_my_location')}
+  30  >

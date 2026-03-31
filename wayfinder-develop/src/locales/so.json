@@ -1,0 +1,167 @@
+{
+	"units": {
+		"meters": "m",
+		"kilometers": "km",
+		"feet": "ft",
+		"mile": "meyl",
+		"miles": "meyl"
+	},
+	"trip-planner": {
+		"arrive": "Imaansho",
+		"depart": "Bax",
+		"today": "Maanta",
+		"tomorrow": "Berri",
+		"plan_your_trip": "Qorshee safarkaaga",
+		"itinerary": "Jadwalka safarka",
+		"duration": "Mudada",
+		"start_time": "Waqtiga bilowga",
+		"end_time": "Waqtiga dhamaadka",
+		"minutes": "daqiiqado",
+		"distance": "Masaafada",
+		"end": "Dhamaadka",
+		"start": "Bilowga",
+		"meters": "mitir",
+		"no_itineraries_found": "Jadwal safar lama helin",
+		"loading": "Shaqeynaya...",
+		"planning": "Qorshaynta",
+		"from": "Laga soo bilaabo",
+		"to": "Ku socda",
+		"search_for_a_place": "Raadi meel",
+		"trip_itineraries": "Jadwalka safarada",
+		"show_steps": "Muuji tillaabooyinka",
+		"hide_steps": "Qari tillaabooyinka",
+		"distance_unit": "Halbeegga Masaafada",
+		"unit_auto": "Si toos ah u ogaado",
+		"unit_metric": "Mitrik (km, m)",
+		"unit_imperial": "Imbiriyaal (mi, ft)"
+	},
+	"tabs": {
+		"stops-and-stations": "Joogsiyada iyo saldhigyada",
+		"plan_trip": "Qorshee safarka"
+	},
+	"search": {
+		"placeholder": "Raadi joogsiyo, wadooyin iyo meelo",
+		"results_for": "Natiijooyinka raadinta ee",
+		"clear_results": "Nadiifi natiijooyinka",
+		"search": "Raadi",
+		"click_here": "Guji halkan",
+		"for_a_list_of_available_routes": "si aad u aragto liiska waddooyinka la heli karo",
+		"search_for_routes": "Raadi wadooyin...",
+		"no_routes_found": "Wax waddo ah lama helin",
+		"all_routes": "Dhammaan wadooyinka"
+	},
+	"header": {
+		"home": "Bogga Hore",
+		"about": "Nagu saabsan",
+		"contact": "Nala soo xiriir",
+		"fares_and_tolls": "Lacagta iyo cashuuraha"
+	},
+	"navigation": {
+		"back_to_map": "Ku noqo Khariidadda"
+	},
+	"status": {
+		"scheduled": "jadwaleysan",
+		"early": "goor hore",
+		"late": "daahsan",
+		"on_time": "wakhtiga",
+		"min": "daqiiqo",
+		"arrives_on_time": "wakhtiga ku yimid",
+		"scheduled_not_real_time": "Jadwaleysan/maaha waqtiga dhabta ah",
+		"canceled": "La joojiyay",
+		"canceled_arrival": "Imaatinka la joojiyay",
+		"canceled_departure": "Bixitaanka la joojiyay",
+		"frequency_from": "Waa {headway} daqiiqo ka bilaabaya {time}",
+		"frequency_until": "Waa {headway} daqiiqo ilaa {time}",
+		"late_without_arrive_depart": "{delay} daqiiqo daahsan",
+		"early_without_arrive_depart": "{delay} daqiiqo goor hore",
+		"arrived_delayed": "Yimid {delay} daqiiqo daahsan",
+		"arrived_early": "Yimid {delay} daqiiqo goor hore",
+		"arrived_ontime": "Wakhtiga ku yimid",
+		"depart_delayed": "Tegay {delay} daqiiqo daahsan",
+		"depart_early": "Tegay {delay} daqiiqo goor hore",
+		"departed_ontime": "Wakhtiga ku tegay",
+		"scheduled_arrival": "Imaatinka jadwaleysan",
+		"scheduled_departure": "Bixitaanka jadwaleysan"
+	},
+	"alert": {
+		"more_info": "Macluumaad dheeraad ah",
+		"close": "Xidh"
+	},
+	"arrivals_and_departures": "Imaatinka iyo baxsashada",
+	"no_arrivals_or_departures_in_next_30_minutes": "Ma jiraan soo gaadhis ama bixitaan 30-ka daqiiqo ee soo socda",
+	"stop": "Joogsi",
+	"routes": "Jidadka",
+	"route": "Jidka",
+	"route_modal_title": "Jidka {name}",
+	"loading": "Shaqeynaya",
+	"arrives": "imaataa",
+	"NA": "M/Q",
+	"time": {
+		"ago": "hore",
+		"now": "hadda",
+		"sec": "sec",
+		"secs": "secs",
+		"min": "min",
+		"mins": "mins",
+		"minutes": "minutes"
+	},
+	"vehicle": {
+		"number": "Gaari #",
+		"data_updated": "Xogta waa la cusbooneysiiyay",
+		"no_real_time_data": "Ma hayno xog ku saabsan wakhtiga dhabta ah ee gaarigan hadda.",
+		"next_stop": "Joogsiga xiga:"
+	},
+	"arrivals_and_departures_for_stop": {
+		"title": "Imaanshaha iyo Bixitaanka"
+	},
+	"schedule_for_stop": {
+		"view_schedule": "Eeg jadwalka",
+		"no_am_schedules_available": "Jadwal AM lama heli karo",
+		"no_pm_schedules_available": "Jadwal PM lama heli karo",
+		"minutes": "Daqiiqado",
+		"hour": "Saacad",
+		"show_all_routes": "Ballaari Dhamaan",
+		"collapse_all_routes": "Laabo Dhamaan",
+		"route_schedules": "Jadwalka waddooyinka",
+		"no_schedules_available": "Jadwal lama heli karo taariikhda la doortay.",
+		"stop_id": "Aqoonsiga joogsiga",
+		"direction": "Jihada"
+	},
+	"direction": {
+		"N": "Waqooyi",
+		"NE": "Waqooyi Bari",
+		"E": "Bari",
+		"SE": "Koonfur Bari",
+		"S": "Koonfur",
+		"SW": "Koonfur Galbeed",
+		"W": "Galbeed",
+		"NW": "Waqooyi Galbeed"
+	},
+	"service_alerts": {
+		"more_info": "Macluumaad dheeri ah",
+		"close": "Xidho",
+		"service_alerts": "Ogeysiisyada adeegga",
+		"service_alert": "Ogeysiiska adeegga",
+		"advice": "Talo",
+		"no_summary": "Koob-soo-koob ma jiro ogeysiiskan",
+		"no_description": "Sharax faahfaahsan ma jiro ogeysiiskan",
+		"page": "Bogga",
+		"show": "Muujin",
+		"hide": "Qari"
+	},
+	"view_stop_information": "Eeg macluumaadka joogsiga",
+	"stop_details": {
+		"view_details": "Eeg faahfaahinta"
+	},
+	"language_switcher": {
+		"select_language": "Dooro luuqadda: {language}",
+		"available_languages": "Luuqadaha la heli karo"
+	},
+	"map": {
+		"find_my_location": "Raadi Goobteeyda"
+	},
+	"context-menu": {
+		"start_here": "Halkan ka bilow",
+		"end_here": "Halkan ku dhamee"
+	}
+}

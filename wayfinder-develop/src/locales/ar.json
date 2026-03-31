@@ -1,0 +1,167 @@
+{
+	"units": {
+		"meters": "م",
+		"kilometers": "كم",
+		"feet": "ft",
+		"mile": "ميل",
+		"miles": "أميال"
+	},
+	"trip-planner": {
+		"arrive": "يصل",
+		"depart": "مغادرة",
+		"today": "اليوم",
+		"tomorrow": "غداً",
+		"plan_your_trip": "خطط رحلتك",
+		"itinerary": "مسار الرحلة",
+		"duration": "المدة",
+		"start_time": "وقت البدء",
+		"end_time": "وقت الانتهاء",
+		"minutes": "دقيقة",
+		"distance": "المسافة",
+		"end": "النهاية",
+		"start": "البداية",
+		"meters": "الأمتار",
+		"no_itineraries_found": "لم يتم العثور على مسارات",
+		"loading": "جاري التحميل...",
+		"planning": "جاري التخطيط",
+		"from": "من",
+		"to": "إلى",
+		"search_for_a_place": "ابحث عن المكان",
+		"trip_itineraries": "مسارات الرحلة",
+		"show_steps": "عرض الخطوات",
+		"hide_steps": "إخفاء الخطوات",
+		"distance_unit": "وحدة المسافة",
+		"unit_auto": "اكتشاف تلقائي",
+		"unit_metric": "متري (كم، م)",
+		"unit_imperial": "إمبراطوري (mi, ft)"
+	},
+	"tabs": {
+		"stops-and-stations": "المحطات والمواقف",
+		"plan_trip": "خطط لرحلة"
+	},
+	"search": {
+		"placeholder": "ابحث عن المحطات، المسارات، والأماكن",
+		"results_for": "نتائج البحث عن",
+		"clear_results": "مسح النتائج",
+		"search": "بحث",
+		"click_here": "اضغط هنا",
+		"for_a_list_of_available_routes": "لقائمة المسارات المتاحة",
+		"search_for_routes": "ابحث عن المسارات...",
+		"no_routes_found": "لم يتم العثور على مسارات",
+		"all_routes": "جميع المسارات"
+	},
+	"header": {
+		"home": "الرئيسية",
+		"about": "معلومات عنا",
+		"contact": "تواصل معنا",
+		"fares_and_tolls": "الأجرة والرسوم"
+	},
+	"navigation": {
+		"back_to_map": "العودة إلى الخريطة"
+	},
+	"status": {
+		"scheduled": "مجدول",
+		"early": "مبكر",
+		"late": "متأخر",
+		"on_time": "في الوقت المحدد",
+		"min": "دقيقة",
+		"arrives_on_time": "يصل في الوقت المحدد",
+		"scheduled_not_real_time": "مجدول/ليس في الوقت الحقيقي",
+		"canceled": "ملغي",
+		"canceled_arrival": "وصول ملغي",
+		"canceled_departure": "مغادرة ملغية",
+		"frequency_from": "كل {headway} دقيقة من {time}",
+		"frequency_until": "كل {headway} دقيقة حتى {time}",
+		"late_without_arrive_depart": "{delay} دقيقة متأخر",
+		"early_without_arrive_depart": "{delay} دقيقة مبكر",
+		"arrived_delayed": "وصل متأخراً {delay} دقيقة",
+		"arrived_early": "وصل مبكراً {delay} دقيقة",
+		"arrived_ontime": "وصل في الوقت المحدد",
+		"depart_delayed": "غادر متأخراً {delay} دقيقة",
+		"depart_early": "غادر مبكراً {delay} دقيقة",
+		"departed_ontime": "غادر في الوقت المحدد",
+		"scheduled_arrival": "وصول مجدول",
+		"scheduled_departure": "مغادرة مجدولة"
+	},
+	"alert": {
+		"more_info": "مزيد من المعلومات",
+		"close": "إغلاق"
+	},
+	"arrivals_and_departures": "الوصول والمغادرة",
+	"no_arrivals_or_departures_in_next_30_minutes": "لا يوجد وصول أو مغادرة خلال الثلاثين دقيقة القادمة",
+	"stop": "المحطة",
+	"routes": "المسارات",
+	"route": "المسار",
+	"route_modal_title": "مسار {name}",
+	"loading": "جاري التحميل",
+	"arrives": "يصل",
+	"NA": "غير متاح",
+	"time": {
+		"ago": "منذ",
+		"now": "الآن",
+		"sec": "sec",
+		"secs": "secs",
+		"min": "min",
+		"mins": "mins",
+		"minutes": "minutes"
+	},
+	"vehicle": {
+		"number": "رقم المركبة",
+		"data_updated": "تم تحديث البيانات",
+		"no_real_time_data": "لا توجد بيانات في الوقت الحقيقي لهذه المركبة الآن.",
+		"next_stop": "المحطة التالية:"
+	},
+	"arrivals_and_departures_for_stop": {
+		"title": "الوصول والمغادرة"
+	},
+	"schedule_for_stop": {
+		"view_schedule": "عرض الجدول",
+		"no_am_schedules_available": "لا توجد جداول صباحية متاحة",
+		"no_pm_schedules_available": "لا توجد جداول مسائية متاحة",
+		"minutes": "دقائق",
+		"hour": "ساعة",
+		"show_all_routes": "توسيع الكل",
+		"collapse_all_routes": "طي الكل",
+		"route_schedules": "جداول المسارات",
+		"no_schedules_available": "لا توجد جداول متاحة للتاريخ المحدد.",
+		"stop_id": "رقم المحطة",
+		"direction": "الاتجاه"
+	},
+	"direction": {
+		"N": "شمال",
+		"NE": "شمال شرق",
+		"E": "شرق",
+		"SE": "جنوب شرق",
+		"S": "جنوب",
+		"SW": "جنوب غرب",
+		"W": "غرب",
+		"NW": "شمال غرب"
+	},
+	"service_alerts": {
+		"more_info": "مزيد من المعلومات",
+		"close": "إغلاق",
+		"service_alerts": "تنبيهات الخدمة",
+		"service_alert": "تنبيه الخدمة",
+		"advice": "نصيحة",
+		"no_summary": "لا يوجد ملخص متاح لهذا التنبيه",
+		"no_description": "لا يوجد وصف تفصيلي متاح لهذا التنبيه",
+		"page": "صفحة",
+		"show": "عرض",
+		"hide": "إخفاء"
+	},
+	"view_stop_information": "عرض معلومات المحطة",
+	"stop_details": {
+		"view_details": "عرض التفاصيل"
+	},
+	"language_switcher": {
+		"select_language": "اختر اللغة: {language}",
+		"available_languages": "اللغات المتاحة"
+	},
+	"map": {
+		"find_my_location": "تحديد موقعي"
+	},
+	"context-menu": {
+		"start_here": "ابدأ من هنا",
+		"end_here": "انتهِ هنا"
+	}
+}

@@ -1,0 +1,163 @@
+{
+	"units": {
+		"meters": "m",
+		"kilometers": "km",
+		"feet": "ft",
+		"mile": "mila",
+		"miles": "mile"
+	},
+	"trip-planner": {
+		"arrive": "Przyjechać",
+		"depart": "Odjeżdżać",
+		"today": "Dzisiaj",
+		"tomorrow": "Jutro",
+		"plan_your_trip": "Zaplanuj swoją podróż",
+		"itinerary": "Plan podróży",
+		"duration": "Czas trwania",
+		"start_time": "Czas rozpoczęcia",
+		"end_time": "Czas zakończenia",
+		"minutes": "minuty",
+		"distance": "Odległość:",
+		"end": "Koniec",
+		"start": "Początek",
+		"meters": "metry",
+		"no_itineraries_found": "Nie znaleziono planów podróży",
+		"loading": "Ładowanie",
+		"planning": "Planowanie",
+		"from": "Od",
+		"to": "Do",
+		"search_for_a_place": "Szukaj miejsca",
+		"trip_itineraries": "Plany podróży",
+		"show_steps": "Pokaż kroki",
+		"hide_steps": "Ukryj kroki",
+		"distance_unit": "Jednostka odległości",
+		"unit_auto": "Wykryj automatycznie",
+		"unit_metric": "Metryczny (km, m)",
+		"unit_imperial": "Imperialny (mi, ft)"
+	},
+	"tabs": {
+		"stops-and-stations": "Przystanki i stacje",
+		"plan_trip": "Zaplanuj podróż"
+	},
+	"search": {
+		"placeholder": "Szukaj przystanków, tras i miejsc",
+		"results_for": "Wyniki wyszukiwania dla",
+		"clear_results": "Wyczyść wyniki",
+		"search": "Szukaj",
+		"click_here": "Kliknij tutaj",
+		"for_a_list_of_available_routes": "dla listy dostępnych tras",
+		"search_for_routes": "Szukaj tras...",
+		"no_routes_found": "Nie znaleziono tras",
+		"all_routes": "Wszystkie trasy"
+	},
+	"header": {
+		"home": "Strona główna",
+		"about": "O nas",
+		"contact": "Kontakt",
+		"fares_and_tolls": "Opłaty i myta"
+	},
+	"navigation": {
+		"back_to_map": "Powrót do Mapy"
+	},
+	"status": {
+		"scheduled": "zaplanowany",
+		"early": "wcześnie",
+		"late": "spóźniony",
+		"on_time": "na czas",
+		"min": "min",
+		"arrives_on_time": "przyjeżdża na czas",
+		"scheduled_not_real_time": "Zaplanowane/nie w czasie rzeczywistym",
+		"canceled": "Anulowany",
+		"canceled_arrival": "Przyjazd anulowany",
+		"canceled_departure": "Odjazd anulowany",
+		"frequency_from": "Co {headway} min od {time}",
+		"frequency_until": "Co {headway} min do {time}",
+		"late_without_arrive_depart": "{delay} min spóźnienia",
+		"early_without_arrive_depart": "{delay} min wcześniej",
+		"arrived_delayed": "Przyjechał {delay} min spóźniony",
+		"arrived_early": "Przyjechał {delay} min wcześniej",
+		"arrived_ontime": "Przyjechał na czas",
+		"depart_delayed": "Odjechał {delay} min spóźniony",
+		"depart_early": "Odjechał {delay} min wcześniej",
+		"departed_ontime": "Odjechał na czas",
+		"scheduled_arrival": "Zaplanowany przyjazd",
+		"scheduled_departure": "Zaplanowany odjazd"
+	},
+	"alert": {
+		"more_info": "Więcej informacji",
+		"close": "Zamknij"
+	},
+	"arrivals_and_departures": "Przyjazdy i odjazdy",
+	"no_arrivals_or_departures_in_next_30_minutes": "Brak przyjazdów lub odjazdów w ciągu najbliższych 30 minut",
+	"stop": "Przystanek",
+	"routes": "Trasy",
+	"route": "trasa",
+	"route_modal_title": "Trasa {name}",
+	"loading": "Ładowanie",
+	"arrives": "przyjeżdża",
+	"NA": "N/D",
+	"time": {
+		"ago": "temu",
+		"now": "teraz",
+		"sec": "sec",
+		"secs": "secs",
+		"min": "min",
+		"mins": "mins",
+		"minutes": "minutes"
+	},
+	"vehicle": {
+		"number": "Pojazd #",
+		"data_updated": "Dane zaktualizowane",
+		"no_real_time_data": "Obecnie nie mamy danych w czasie rzeczywistym dla tego pojazdu.",
+		"next_stop": "Następny przystanek:"
+	},
+	"arrivals_and_departures_for_stop": {
+		"title": "Przyjazdy i Odjazdy"
+	},
+	"schedule_for_stop": {
+		"view_schedule": "Zobacz rozkład",
+		"no_am_schedules_available": "Brak dostępnych rozkładów AM",
+		"no_pm_schedules_available": "Brak dostępnych rozkładów PM",
+		"minutes": "Minuty",
+		"hour": "Godzina",
+		"show_all_routes": "Rozwiń Wszystko",
+		"collapse_all_routes": "Zwiń Wszystko",
+		"route_schedules": "Rozkłady tras",
+		"no_schedules_available": "Brak dostępnych rozkładów na wybraną datę.",
+		"stop_id": "ID przystanku",
+		"direction": "Kierunek"
+	},
+	"direction": {
+		"N": "Północ",
+		"NE": "Północny wschód",
+		"E": "Wschód",
+		"SE": "Południowy wschód",
+		"S": "Południe",
+		"SW": "Południowy zachód",
+		"W": "Zachód",
+		"NW": "Północny zachód"
+	},
+	"service_alerts": {
+		"more_info": "Więcej informacji",
+		"close": "Zamknij",
+		"service_alerts": "Alerty serwisowe",
+		"service_alert": "Alert serwisowy",
+		"advice": "Porada",
+		"no_summary": "Brak podsumowania dla tego alertu",
+		"no_description": "Brak szczegółowego opisu dla tego alertu",
+		"page": "Strona",
+		"show": "Pokaż",
+		"hide": "Ukryj"
+	},
+	"language_switcher": {
+		"select_language": "Wybierz język: {language}",
+		"available_languages": "Dostępne języki"
+	},
+	"map": {
+		"find_my_location": "Znajdź moją lokalizację"
+	},
+	"context-menu": {
+		"start_here": "Rozpocznij tutaj",
+		"end_here": "Zakończ tutaj"
+	}
+}

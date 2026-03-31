@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.h1 {
+		@apply mb-4 text-2xl font-semibold text-surface-foreground dark:text-surface-foreground-dark;
+	}
+
+	.h2 {
+		@apply mb-4 text-xl font-semibold text-surface-foreground dark:text-surface-foreground-dark;
+	}
+
+	.h3 {
+		@apply mb-2 text-lg font-semibold dark:text-surface-foreground-dark;
+	}
+
+	.modal-pane {
+		@apply rounded-lg border-gray-500 bg-surface/90 px-3 shadow-lg dark:bg-surface-dark dark:text-surface-foreground-dark dark:shadow-lg dark:shadow-gray-200/10;
+		@apply md:px-4;
+	}
+
+	.tab-container {
+		@apply flex border-b border-gray-300;
+	}
+
+	.tab-container__item {
+		@apply -mb-px px-4 py-2 font-semibold text-gray-500;
+	}
+
+	.tab-container__item--active {
+		@apply border-b-2 border-brand-accent text-brand-accent;
+	}
+
+	/* Pill-style itinerary tabs */
+	.itinerary-tabs {
+		@apply flex gap-2 overflow-x-auto px-1 py-3;
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+	}
+
+	.itinerary-tabs::-webkit-scrollbar {
+		display: none;
+	}
+
+	.itinerary-tab {
+		@apply flex flex-shrink-0 cursor-pointer items-center gap-2 whitespace-nowrap rounded-full px-4 py-2;
+		@apply bg-gray-100 text-sm font-medium text-gray-700;
+		@apply transition-all duration-200 ease-out;
+		@apply hover:bg-gray-200;
+		@apply dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700;
+	}
+
+	.itinerary-tab:active {
+		@apply scale-95;
+	}
+
+	.itinerary-tab--active {
+		@apply bg-brand text-brand-foreground shadow-md;
+		@apply hover:bg-brand;
+		@apply dark:bg-brand dark:text-brand-foreground dark:hover:bg-brand;
+	}
+
+	.button {
+		@apply rounded-md bg-surface px-3 py-2 text-sm font-semibold text-surface-foreground shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50;
+	}
+
+	.button--primary {
+		@apply rounded-md bg-brand-accent px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-accent;
+	}
+
+	.rtl {
+		@apply flex-row-reverse text-right;
+		direction: rtl;
+	}
+
+	.rtl .rotate-rtl {
+		transform: rotate(180deg);
+	}
+
+	.rtl .ml-3 {
+		margin-right: 0.75rem;
+	}
+
+	.rtl .mr-3 {
+		margin-left: 0.75rem;
+	}
+
+	.rtl .space-x-4 {
+		margin-left: 1rem;
+	}
+
+	.rtl .space-x-reverse {
+		margin-right: 1rem;
+	}
+
+	.rtl .border-l-4 {
+		border-left-width: 0;
+		border-right-width: 4px;
+	}
+
+	.rtl .left-5 {
+		left: auto;
+		right: 1.25rem;
+	}
+}
